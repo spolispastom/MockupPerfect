@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="MockupPerfect" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="MockupPerfect" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About MockupPerfect" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
+                                        <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
+                                        <menuItem title="Services" id="NMo-om-nkz">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+                                        <menuItem title="Hide MockupPerfect" keyEquivalent="h" id="Olw-nP-bQN">
+                                            <connections>
+                                                <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Show All" id="Kd2-mp-pUS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                                        <menuItem title="Quit MockupPerfect" keyEquivalent="q" id="4sb-4s-VLi">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Mukup" id="HnY-vd-Bj6">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Mukup" systemMenu="window" id="HPG-ed-5AK">
+                                    <items>
+                                        <menuItem title="Open" keyEquivalent="o" id="Zee-2Y-KYe">
+                                            <connections>
+                                                <action selector="openMukupMenuItemDidClick:" target="Voe-Tx-rLC" id="QQh-DL-KrK"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Setting" id="nx2-bR-wYu">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Setting" id="4W9-js-f1f">
+                                    <items>
+                                        <menuItem title="Scale" id="27c-Jk-cwg">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Scale" id="2ML-FK-Ztl">
+                                                <items>
+                                                    <menuItem title="100%" keyEquivalent="1" id="Lj6-35-6zT">
+                                                        <connections>
+                                                            <action selector="scaleSelected:" target="Voe-Tx-rLC" id="q74-9a-lsk"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="75%" keyEquivalent="2" id="7Zz-29-Jdf">
+                                                        <connections>
+                                                            <action selector="scaleSelected:" target="Voe-Tx-rLC" id="dVW-Ba-QzK"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="50%" state="on" keyEquivalent="3" id="heO-v6-Fxy">
+                                                        <connections>
+                                                            <action selector="scaleSelected:" target="Voe-Tx-rLC" id="jCH-Ns-3Wr"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="33%" keyEquivalent="4" id="vj2-4A-Us1">
+                                                        <connections>
+                                                            <action selector="scaleSelected:" target="Voe-Tx-rLC" id="PwX-wv-TW7"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="25%" keyEquivalent="5" id="UxV-Qf-2s5">
+                                                        <connections>
+                                                            <action selector="scaleSelected:" target="Voe-Tx-rLC" id="gPf-mw-4Om"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                </items>
+                                            </menu>
+                                        </menuItem>
+                                        <menuItem title="Device" id="lhq-uc-gvW">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Device" id="4hc-D3-GDe">
+                                                <items>
+                                                    <menuItem title="iPhone 4/4S" id="uLr-wt-65t">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="deviceSelected:" target="Voe-Tx-rLC" id="Vrk-9K-K8c"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="iPhone 5/5S" state="on" id="zS6-cV-Tuy">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="deviceSelected:" target="Voe-Tx-rLC" id="ATV-zU-fUx"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="iPhone 6" id="riC-qT-JI3">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="deviceSelected:" target="Voe-Tx-rLC" id="0Sy-99-RcD"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="iPhone 6 pluse" id="Aho-ek-lcH">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="deviceSelected:" target="Voe-Tx-rLC" id="Yh5-uY-Gcs"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem isSeparatorItem="YES" id="H8b-x8-EY5"/>
+                                                    <menuItem title="iPad " id="2cT-uN-xYL">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="deviceSelected:" target="Voe-Tx-rLC" id="Ou2-Q6-5CS"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem isSeparatorItem="YES" state="on" id="jXP-Al-mdc"/>
+                                                    <menuItem title="Origin mukup size" id="rgz-2N-K5Y">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="deviceSelected:" target="Voe-Tx-rLC" id="6YX-44-qih"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                </items>
+                                            </menu>
+                                        </menuItem>
+                                        <menuItem title="Rotation" id="CX2-gW-cg0">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" id="CQy-WU-ld7">
+                                                <items>
+                                                    <menuItem title="Right" keyEquivalent="" id="1X1-63-9lf">
+                                                        <connections>
+                                                            <action selector="orientationDidChange:" target="Voe-Tx-rLC" id="kQF-CC-Tf1"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Left" keyEquivalent="" id="I1J-PI-Mhd">
+                                                        <connections>
+                                                            <action selector="orientationDidChange:" target="Voe-Tx-rLC" id="9tM-Og-o1r"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                </items>
+                                            </menu>
+                                        </menuItem>
+                                        <menuItem title="Opacity" id="fNy-39-XhT">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Opacity" id="kzE-Mt-0HN">
+                                                <items>
+                                                    <menuItem title="10%" keyEquivalent="1" id="FJd-NF-V1C">
+                                                        <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                                                        <connections>
+                                                            <action selector="opacityDidChange:" target="Voe-Tx-rLC" id="V9V-R8-ClY"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="20%" keyEquivalent="2" id="fc6-q3-zQk">
+                                                        <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                                                        <connections>
+                                                            <action selector="opacityDidChange:" target="Voe-Tx-rLC" id="WKQ-g3-GgS"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="30%" keyEquivalent="3" id="pEx-A5-SMN">
+                                                        <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                                                        <connections>
+                                                            <action selector="opacityDidChange:" target="Voe-Tx-rLC" id="jH9-8s-L9g"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="40%" keyEquivalent="4" id="nYL-UG-Mmc">
+                                                        <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                                                        <connections>
+                                                            <action selector="opacityDidChange:" target="Voe-Tx-rLC" id="SdS-oZ-OFx"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="50%" state="on" keyEquivalent="5" id="lXx-Nc-3r3">
+                                                        <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                                                        <connections>
+                                                            <action selector="opacityDidChange:" target="Voe-Tx-rLC" id="2aB-b1-ZEe"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="60%" keyEquivalent="6" id="EqQ-79-B7b">
+                                                        <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                                                        <connections>
+                                                            <action selector="opacityDidChange:" target="Voe-Tx-rLC" id="w73-9J-7BJ"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="70%" keyEquivalent="7" id="eiI-mQ-8e7">
+                                                        <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                                                        <connections>
+                                                            <action selector="opacityDidChange:" target="Voe-Tx-rLC" id="9Ug-Ka-qZK"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="80%" keyEquivalent="8" id="MYn-iI-tDW">
+                                                        <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                                                        <connections>
+                                                            <action selector="opacityDidChange:" target="Voe-Tx-rLC" id="qBj-ul-fTJ"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="90%" keyEquivalent="9" id="tlr-eC-TWF">
+                                                        <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                                                        <connections>
+                                                            <action selector="opacityDidChange:" target="Voe-Tx-rLC" id="8Tv-Ph-NJ5"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="100%" keyEquivalent="0" id="6vd-1x-13b">
+                                                        <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                                                        <connections>
+                                                            <action selector="opacityDidChange:" target="Voe-Tx-rLC" id="Qk1-Pa-7UF"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                </items>
+                                            </menu>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Help" id="k64-y0-cLL">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Help" systemMenu="help" id="2E1-zu-Rp9">
+                                    <items>
+                                        <menuItem title="MackupPerfect Help" keyEquivalent="?" id="Tg8-vK-JYP">
+                                            <connections>
+                                                <action selector="showHelp:" target="Ady-hI-5gd" id="2ng-9z-wEV"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
+                    <connections>
+                        <outlet property="iPadMenuItem" destination="2cT-uN-xYL" id="ZN2-df-NcY"/>
+                        <outlet property="iPhone4MenuItem" destination="uLr-wt-65t" id="YnA-HL-JAb"/>
+                        <outlet property="iPhone5MenuItem" destination="zS6-cV-Tuy" id="6y5-is-kVR"/>
+                        <outlet property="iPhone6MenuItem" destination="riC-qT-JI3" id="c3P-ON-TcT"/>
+                        <outlet property="iPhone6pluseMenuItem" destination="Aho-ek-lcH" id="xhj-sd-yCm"/>
+                        <outlet property="opacityMenu" destination="kzE-Mt-0HN" id="6X0-eJ-KD8"/>
+                        <outlet property="originnSizeMenuItem" destination="rgz-2N-K5Y" id="TQc-6g-kw1"/>
+                        <outlet property="rotationLeftMenuItem" destination="I1J-PI-Mhd" id="cvY-Hv-Q9i"/>
+                        <outlet property="rotationRightlMenuItem" destination="1X1-63-9lf" id="5mL-Mu-oAA"/>
+                        <outlet property="scaleMenu" destination="2ML-FK-Ztl" id="8kC-Jq-MO4"/>
+                    </connections>
+                </customObject>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="-129"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="R2V-B0-nI4">
+            <objects>
+                <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
+                    <window key="window" title="MockupPerfect" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA" customClass="MPMockupWindow">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" texturedBackground="YES" unifiedTitleAndToolbar="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="196" y="240" width="320" height="568"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1366" height="768"/>
+                    </window>
+                    <connections>
+                        <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="hA6-aD-C58"/>
+                    </connections>
+                </windowController>
+                <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="250"/>
+        </scene>
+        <!--Mockup View Controller-->
+        <scene sceneID="hIz-AP-VOD">
+            <objects>
+                <viewController id="XfG-lQ-9wD" customClass="MPMockupViewController" sceneMemberID="viewController">
+                    <view key="view" id="m2S-Jp-Qdl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NT7-n0-CeR" customClass="MPPlaseholderDragAndDropImageView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="Wgy-cZ-rOa"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qTH-Po-fSh" customClass="MPPlaseholderDragAndDropImageView">
+                                <rect key="frame" x="0.0" y="44" width="320" height="480"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="0dA-p1-Kg6"/>
+                                    <constraint firstAttribute="height" constant="480" id="Nh5-0w-RRW"/>
+                                </constraints>
+                                <animations/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Plaseholder" id="CT3-SA-Jv8"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="qTH-Po-fSh" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="FAD-ZQ-1Fv"/>
+                            <constraint firstItem="NT7-n0-CeR" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="Fbs-G6-qPv"/>
+                            <constraint firstAttribute="trailing" secondItem="NT7-n0-CeR" secondAttribute="trailing" id="Whx-m9-vrK"/>
+                            <constraint firstItem="NT7-n0-CeR" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="Z77-E4-YvS"/>
+                            <constraint firstItem="qTH-Po-fSh" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="ayP-bu-FWg"/>
+                            <constraint firstAttribute="bottom" secondItem="NT7-n0-CeR" secondAttribute="bottom" id="qVr-BV-0qw"/>
+                        </constraints>
+                        <animations/>
+                    </view>
+                    <connections>
+                        <outlet property="muckupImageWell" destination="NT7-n0-CeR" id="vE2-nl-Gnc"/>
+                        <outlet property="plaseholderHeightConstraint" destination="Nh5-0w-RRW" id="feB-R7-0z7"/>
+                        <outlet property="plaseholderImageView" destination="qTH-Po-fSh" id="vau-DE-sd2"/>
+                        <outlet property="plaseholderWidthConstraint" destination="0dA-p1-Kg6" id="khf-zx-a6K"/>
+                    </connections>
+                </viewController>
+                <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="554" y="238"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Plaseholder" width="640" height="960"/>
+    </resources>
+</document>

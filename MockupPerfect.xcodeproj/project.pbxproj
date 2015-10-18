@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3D3EEC1BD278460087510B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3D3EEB1BD278460087510B /* AppDelegate.m */; };
+		CF3D3EEF1BD278460087510B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3D3EEE1BD278460087510B /* main.m */; };
+		CF3D3EF41BD278460087510B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3D3EF31BD278460087510B /* Assets.xcassets */; };
+		CF3D3EF71BD278460087510B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3D3EF51BD278460087510B /* Main.storyboard */; };
+		CF3D3F001BD278760087510B /* MPMockupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3D3EFF1BD278760087510B /* MPMockupWindow.m */; settings = {ASSET_TAGS = (); }; };
+		CF3D3F031BD278C00087510B /* MPMockupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3D3F021BD278C00087510B /* MPMockupViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CF3D3F061BD279250087510B /* MPPlaseholderDragAndDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3D3F051BD279250087510B /* MPPlaseholderDragAndDropImageView.m */; settings = {ASSET_TAGS = (); }; };
+		CF3D3F081BD27B990087510B /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3D3F071BD27B990087510B /* images.xcassets */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF3D3EE71BD278460087510B /* MockupPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockupPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3D3EEA1BD278460087510B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF3D3EEB1BD278460087510B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF3D3EEE1BD278460087510B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF3D3EF31BD278460087510B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3D3EF61BD278460087510B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3D3EF81BD278460087510B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3D3EFE1BD278760087510B /* MPMockupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMockupWindow.h; sourceTree = "<group>"; };
+		CF3D3EFF1BD278760087510B /* MPMockupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMockupWindow.m; sourceTree = "<group>"; };
+		CF3D3F011BD278C00087510B /* MPMockupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMockupViewController.h; sourceTree = "<group>"; };
+		CF3D3F021BD278C00087510B /* MPMockupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMockupViewController.m; sourceTree = "<group>"; };
+		CF3D3F041BD279250087510B /* MPPlaseholderDragAndDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPPlaseholderDragAndDropImageView.h; sourceTree = "<group>"; };
+		CF3D3F051BD279250087510B /* MPPlaseholderDragAndDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPPlaseholderDragAndDropImageView.m; sourceTree = "<group>"; };
+		CF3D3F071BD27B990087510B /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3D3EE41BD278460087510B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3D3EDE1BD278460087510B = {
+			isa = PBXGroup;
+			children = (
+				CF3D3EE91BD278460087510B /* MockupPerfect */,
+				CF3D3EE81BD278460087510B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3D3EE81BD278460087510B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3D3EE71BD278460087510B /* MockupPerfect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3D3EE91BD278460087510B /* MockupPerfect */ = {
+			isa = PBXGroup;
+			children = (
+				CF3D3EEA1BD278460087510B /* AppDelegate.h */,
+				CF3D3EEB1BD278460087510B /* AppDelegate.m */,
+				CF3D3EF31BD278460087510B /* Assets.xcassets */,
+				CF3D3EF51BD278460087510B /* Main.storyboard */,
+				CF3D3EF81BD278460087510B /* Info.plist */,
+				CF3D3EED1BD278460087510B /* Supporting Files */,
+				CF3D3EFE1BD278760087510B /* MPMockupWindow.h */,
+				CF3D3EFF1BD278760087510B /* MPMockupWindow.m */,
+				CF3D3F011BD278C00087510B /* MPMockupViewController.h */,
+				CF3D3F021BD278C00087510B /* MPMockupViewController.m */,
+				CF3D3F041BD279250087510B /* MPPlaseholderDragAndDropImageView.h */,
+				CF3D3F051BD279250087510B /* MPPlaseholderDragAndDropImageView.m */,
+				CF3D3F071BD27B990087510B /* images.xcassets */,
+			);
+			path = MockupPerfect;
+			sourceTree = "<group>";
+		};
+		CF3D3EED1BD278460087510B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3D3EEE1BD278460087510B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3D3EE61BD278460087510B /* MockupPerfect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3D3EFB1BD278460087510B /* Build configuration list for PBXNativeTarget "MockupPerfect" */;
+			buildPhases = (
+				CF3D3EE31BD278460087510B /* Sources */,
+				CF3D3EE41BD278460087510B /* Frameworks */,
+				CF3D3EE51BD278460087510B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockupPerfect;
+			productName = MockupPerfect;
+			productReference = CF3D3EE71BD278460087510B /* MockupPerfect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3D3EDF1BD278460087510B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Михаил Куренков";
+				TargetAttributes = {
+					CF3D3EE61BD278460087510B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CF3D3EE21BD278460087510B /* Build configuration list for PBXProject "MockupPerfect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3D3EDE1BD278460087510B;
+			productRefGroup = CF3D3EE81BD278460087510B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3D3EE61BD278460087510B /* MockupPerfect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3D3EE51BD278460087510B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3D3F081BD27B990087510B /* images.xcassets in Resources */,
+				CF3D3EF41BD278460087510B /* Assets.xcassets in Resources */,
+				CF3D3EF71BD278460087510B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3D3EE31BD278460087510B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3D3EEF1BD278460087510B /* main.m in Sources */,
+				CF3D3F031BD278C00087510B /* MPMockupViewController.m in Sources */,
+				CF3D3EEC1BD278460087510B /* AppDelegate.m in Sources */,
+				CF3D3F001BD278760087510B /* MPMockupWindow.m in Sources */,
+				CF3D3F061BD279250087510B /* MPPlaseholderDragAndDropImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF3D3EF51BD278460087510B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3D3EF61BD278460087510B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3D3EF91BD278460087510B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF3D3EFA1BD278460087510B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF3D3EFC1BD278460087510B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MockupPerfect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sPolispastom.MockupPerfect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF3D3EFD1BD278460087510B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MockupPerfect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sPolispastom.MockupPerfect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3D3EE21BD278460087510B /* Build configuration list for PBXProject "MockupPerfect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3D3EF91BD278460087510B /* Debug */,
+				CF3D3EFA1BD278460087510B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3D3EFB1BD278460087510B /* Build configuration list for PBXNativeTarget "MockupPerfect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3D3EFC1BD278460087510B /* Debug */,
+				CF3D3EFD1BD278460087510B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3D3EDF1BD278460087510B /* Project object */;
+}
