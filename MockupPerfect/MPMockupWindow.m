@@ -147,6 +147,7 @@ typedef  NS_ENUM(NSUInteger, MPOrientation) {
 -(void)updateSelfSize{
     CGFloat width = 0;
     CGFloat height = 0;
+    
     switch (_sizeTipe) {
         case MPSize_iPhone4:
             width = 640.0;
